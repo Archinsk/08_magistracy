@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: DarkSlateBlue;
+}
+
+#city, #region{
+  background-color: Crimson;
+}
+
+details {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 1px;
+}
+ 
+summary {
+  border: 1px solid grey;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0px;
+  padding: 10px;
+  background: -webkit-linear-gradient(top, #f3f3f3 50%, #e6e6e6 50%);
+}
+
+h5 {
+  padding-top: 6px;
+  padding-left: 8px;
+}
+
+li {
+  background-color: GhostWhite;
+  list-style-type: none;
+  padding: 3px;
+  margin: 3px;
+}
+
+li:hover {
+  background-color: Lavender;
+  list-style-type: none;
+  padding: 3px;
+  margin: 3px;
+}
+
+ul {
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a:link, a:visited {
+  color: black;
+  padding: 6px 25px;
+  text-decoration: none;
+  display: inline-block;
+}
