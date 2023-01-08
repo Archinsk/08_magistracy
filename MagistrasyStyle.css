@@ -1,28 +1,30 @@
-* {
-  box-sizing: border-box;
+h3, h4 {
+  color: white;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 4px;
 }
 
-#header {
-  background-color: DarkSlateBlue;
+.header {
+  background-color: darkslateblue;
 }
 
-#city, #region{
-  background-color: Crimson;
+.region{
+  background-color: crimson;
 }
 
 details {
   border: 1px solid grey;
   border-radius: 5px;
-  padding: 1px;
 }
  
 summary {
   border: 1px solid grey;
   border-radius: 3px;
+  margin: 1px;
   cursor: pointer;
-  margin: 0px;
   padding: 10px;
-  background: -webkit-linear-gradient(top, #f3f3f3 50%, #e6e6e6 50%);
+  background-image: linear-gradient(#f3f3f3 50%, #e6e6e6 50%);
 }
 
 h5 {
@@ -30,29 +32,24 @@ h5 {
   padding-left: 8px;
 }
 
-li {
-  background-color: GhostWhite;
-  list-style-type: none;
-  padding: 3px;
-  margin: 3px;
-}
-
-li:hover {
-  background-color: Lavender;
-  list-style-type: none;
-  padding: 3px;
-  margin: 3px;
-}
-
 ul {
-  margin-left: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
 
-a:link, a:visited {
-  color: black;
-  padding: 6px 25px;
-  text-decoration: none;
-  display: inline-block;
+li {
+  list-style-type: none;
+  margin: 3px;
+}
+
+a {
+  color: black !important;
+  background-color: ghostwhite;
+  padding: 9px 28px;
+  text-decoration: none !important;
+  display: block;
+}
+
+a:hover {
+  background-color: Lavender;
 }
